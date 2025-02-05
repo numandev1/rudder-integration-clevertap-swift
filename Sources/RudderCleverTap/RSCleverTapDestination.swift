@@ -5,7 +5,7 @@ import CleverTapSDK
 
 class RSCleverTapDestination: RSDestinationPlugin {
     let type = PluginType.destination
-    let key = "Clevertap"
+    let key = "CleverTap"
     var client: RSClient?
     var controller = RSController()
     
@@ -188,7 +188,6 @@ extension RSCleverTapDestination {
 @objc
 public class RudderCleverTapDestination: RudderDestination {
     
-    @objc
     public override init() {
         super.init()
         plugin = RSCleverTapDestination()
