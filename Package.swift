@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/rudderlabs/rudder-sdk-ios.git", from: "2.4.3"),
-        .package(url: "https://github.com/CleverTap/clevertap-ios-sdk.git", from: "6.2.1"),
+        .package(url: "https://github.com/CleverTap/clevertap-ios-sdk.git", from: "7.1.1"),
     ],
     targets: [
         .target(
